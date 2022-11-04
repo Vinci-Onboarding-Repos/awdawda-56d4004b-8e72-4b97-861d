@@ -354,7 +354,7 @@ async function addxptopath() {
     const page = pathList[pathList.length - 1] == projectId ?
         "index" : pathList[pathList.length - 1];
 
-    const data = document.querySelector("#complete");
+    const data = document.querySelector("#Complete");
 
     if (window.localStorage.getItem('user') === null) {
         var allIds = {};
