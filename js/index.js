@@ -124,6 +124,7 @@ async function addUserDecision(event) {
 
 function openPopupD() {
     var allIds = {};
+    console.log("ola")
     var popup = window.open(BASE_API_URL + '/routes/discord/auth?original=' + window.location.href, '', "width=400, height=400");
 
     var popupTick = setInterval(function () {
